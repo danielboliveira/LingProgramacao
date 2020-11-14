@@ -32,6 +32,7 @@ public class Principal {
 		System.out.println(c.getComprimento());
 			*/
 		
+		/*
 		Contador c = new Contador();
 		System.out.println(c.getValor());
 		c.Incrementar();
@@ -40,6 +41,7 @@ public class Principal {
 		System.out.println(c.getValor());
 		c.Zerar();
 		System.out.println(c.getValor());
+		*/
 
 	}
 
