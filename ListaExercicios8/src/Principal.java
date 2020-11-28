@@ -3,6 +3,8 @@ import Ex2.Classe;
 import Ex3_4.Ponto;
 import Ex3_4.VetorDePontos;
 import Ex5.Complexo;
+import Ex6.Date;
+
 public class Principal {
 
 	public static void main(String[] args) {
@@ -40,7 +42,7 @@ public class Principal {
 		
 		v.Remove(1);
 	*/
-		
+	/*	
 		Complexo c1 = new Complexo(5,4);
 		c1.Print();
 		Complexo c2 = new Complexo(3,2);
@@ -48,7 +50,11 @@ public class Principal {
 		
 		c1.Somar(c2);
 		c1.Print();
-
+		*/
+		
+		Date d1 = new Date(29,2,2020);
+		d1.Display();
+		d1.NextDay().Display();
 	}
 
 }
