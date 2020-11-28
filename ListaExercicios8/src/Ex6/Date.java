@@ -2,13 +2,14 @@ package Ex6;
 
 public class Date {
 	private int dia,mes,ano;
+	private boolean isValid;
 	
 	public Date(int Dia,int Mes,int Ano) {
 		this.dia = Dia;
 		this.mes = Mes;
 		this.ano = Ano;
 		
-		this.CheckDate();
+		this.isValid = this.CheckDate();
 	}
 	
 	public void Display() {
@@ -98,5 +99,9 @@ public class Date {
         }
         
         return numDays;
+	}
+
+	public boolean getIsValid() {
+		return isValid;
 	}
 }

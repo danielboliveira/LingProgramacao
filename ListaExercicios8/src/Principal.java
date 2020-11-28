@@ -4,6 +4,9 @@ import Ex3_4.Ponto;
 import Ex3_4.VetorDePontos;
 import Ex5.Complexo;
 import Ex6.Date;
+import Ex8.Led;
+import Ex9.Painel;
+import Ex10.Painel2D;
 
 public class Principal {
 
@@ -51,10 +54,28 @@ public class Principal {
 		c1.Somar(c2);
 		c1.Print();
 		*/
-		
+	/*	
 		Date d1 = new Date(29,2,2020);
 		d1.Display();
 		d1.NextDay().Display();
+		*/
+		
+		/*Painel p = new Painel(6);
+		p.Ligar(2);
+		p.Ligar(3);
+		p.Lista();
+		System.out.println(p.Display());-*/
+		
+		Painel2D p2  = new Painel2D(6,6);
+		p2.Ligar(0, 2);p2.Ligar(0, 3);
+		p2.Ligar(1, 0);p2.Ligar(1, 5);
+		p2.Ligar(2, 0);p2.Ligar(2, 5);
+		p2.Ligar(3, 0);p2.Ligar(3, 5);
+		p2.Ligar(4, 0);p2.Ligar(4, 5);
+		p2.Ligar(5, 2);p2.Ligar(5, 3);
+		p2.Display();
+		
+		
 	}
 
 }
