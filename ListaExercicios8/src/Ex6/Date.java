@@ -47,7 +47,7 @@ public class Date {
 	}
 	
 	private boolean CheckDate() {
-		if (ano < 0){
+		if (ano < 1){
 			System.out.println("Ano inválido!");
 			this.ano = 1;
 			return false;
